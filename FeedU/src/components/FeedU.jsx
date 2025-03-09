@@ -16,7 +16,7 @@ const FoodRecommendation = () => {
   const [error, setError] = useState(null);
 
   // Backend API base URL (replace with your actual backend URL)
-  const API_BASE_URL = 'http://localhost:5000'; // Or your Vercel/deployment URL
+  const API_BASE_URL = 'https://knn-feedu.onrender.com'; // Or your Vercel/deployment URL
 
   // Fetch dropdown options on component mount
   useEffect(() => {
